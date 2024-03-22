@@ -1,2 +1,4 @@
-# Project exclude paths
-/packages/utils/index.js
+node_modules
+.DS_Store
+.idea
+dist
