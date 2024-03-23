@@ -16,7 +16,8 @@
     "pnpm",
     "typescript",
     "vite",
-    "vue"
+    "vue",
+    "tailwindcss"
   ],
   "packageManager": "pnpm@8.15.5",
   "devDependencies": {
