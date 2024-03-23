@@ -1,13 +1,14 @@
 # pnpm-monorepo
 
-Пример monorepo с использованием pnpm.
+Пример monorepo с использованием __pnpm__.
 
 ## Примеры
 
-- `apps/web` - Web-приложение на vite + typescript
-- `apps/web-vue` - Web-приложение на vite + vue + typescript
-- `packages/tsconfig` - Общие конфигурации typescript (tsconfig) для использования в приложениях и пакетах
-- `packages/utils` - Общие utils для использования в других пакетах и приложениях
+- `apps/web` - Web-приложение __TypeScript__
+- `apps/web-vue` - Web-приложение на __Vue__ + __TypeScript__ + __TailwindCSS__ + __PrimeVue__
+- `packages/tsconfig` - Общие конфигурации __TypeScript__ (`tsconfig`) для использования в приложениях и пакетах
+- `packages/tailwind` - Общая конфигурация __TailwindCSS__
+- `packages/utils` - Общие __Utils__ для использования в других пакетах и приложениях
 
 ## TODO
 
