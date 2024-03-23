@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "3.4.21"
+    "vue": "3.4.21",
+    "primevue": "3.50.0"
   },
   "devDependencies": {
     "tsconfig": "workspace:*",

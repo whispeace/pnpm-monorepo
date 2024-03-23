@@ -8,6 +8,7 @@
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "jsx": "preserve",
     "moduleResolution": "bundler",
-    "types": ["vite/client"]
+    "types": ["vite/client"],
+    "allowJs": true
   }
 }
