@@ -4,6 +4,6 @@ import { utils } from '@utils'
 
 <template>
   <ul>
-    <li v-for="item in utils" :key="item" class="text-sm text-gray-700">{{ item }}</li>
+    <li v-for="item in utils" :key="item" class="text-sm">{{ item }}</li>
   </ul>
 </template>

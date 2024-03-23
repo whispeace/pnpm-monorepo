@@ -1,12 +1,22 @@
 <!doctype html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue + TS</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + Vue + TS</title>
+  <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+  </script>
 </head>
-<body>
-<div id="app"></div>
-<script type="module" src="src/main.ts"></script>
+<body class="bg-white dark:bg-slate-800 text-slate-500 dark:text-slate-400">
+  <div id="app"></div>
+  <script type="module" src="src/main.ts"></script>
 </body>
 </html>
