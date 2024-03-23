@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "vue": "3.4.21",
-    "primevue": "3.50.0"
+    "primevue": "3.50.0",
+    "primeicons": "6.0.1"
   },
   "devDependencies": {
     "tsconfig": "workspace:*",
